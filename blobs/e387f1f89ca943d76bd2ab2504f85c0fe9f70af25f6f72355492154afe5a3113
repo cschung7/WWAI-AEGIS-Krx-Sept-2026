@@ -1,0 +1,807 @@
+{
+  "date": "2026-09-23",
+  "computed_at": "2026-09-25 20:12:26 KST",
+  "regime": "BROADENING",
+  "n_stocks": 15,
+  "equity_exposure_pct": 59.7,
+  "strategy_weights": {
+    "w_ml": 0.706,
+    "w_fiedler": 0.176,
+    "w_size": 0.118,
+    "z_score": 3.004
+  },
+  "data_dates": {
+    "price": "2026-09-23",
+    "portfolio": "2026-09-23",
+    "ml": "2026-09-18",
+    "fiedler": "2026-09-23"
+  },
+  "holdings": [
+    {
+      "ticker": "삼성전기",
+      "weight": 0.0667,
+      "sector": "2차전지",
+      "mcap_tn": 95.4585,
+      "themes": [
+        "2차전지(전고체)",
+        "MLCC(적층세라믹콘덴서)",
+        "PCB(FPCB 등)",
+        "갤럭시 부품주",
+        "아이폰"
+      ]
+    },
+    {
+      "ticker": "SK",
+      "weight": 0.0667,
+      "sector": "자동차",
+      "mcap_tn": 36.8313,
+      "themes": [
+        "4차산업 수혜주",
+        "LNG(액화천연가스)",
+        "RFID(NFC 등)",
+        "SI(시스템통합)",
+        "냉각시스템(액침냉각 등)"
+      ]
+    },
+    {
+      "ticker": "NAVER",
+      "weight": 0.0667,
+      "sector": "자동차",
+      "mcap_tn": 32.9582,
+      "themes": [
+        "4차산업 수혜주",
+        "AI 챗봇(챗GPT 등)",
+        "NFT(대체불가토큰)",
+        "SNS(소셜네트워크서비스)",
+        "게임"
+      ]
+    },
+    {
+      "ticker": "LS ELECTRIC",
+      "weight": 0.0667,
+      "sector": "자동차",
+      "mcap_tn": 30.15,
+      "themes": [
+        "수소차(연료전지/부품/충전소 등)",
+        "스마트그리드(지능형전력망)",
+        "스마트팩토리(스마트공장)",
+        "원자력발전",
+        "전기차"
+      ]
+    },
+    {
+      "ticker": "삼성에스디에스",
+      "weight": 0.0667,
+      "sector": "로봇",
+      "mcap_tn": 17.1391,
+      "themes": [
+        "4차산업 수혜주",
+        "AI 챗봇(챗GPT 등)",
+        "IT 대표주",
+        "SI(시스템통합)",
+        "블록체인"
+      ]
+    },
+    {
+      "ticker": "LG",
+      "weight": 0.0667,
+      "sector": "기타",
+      "mcap_tn": 16.3438,
+      "themes": [
+        "밸류업(24년 기업가치 제고계획 발표)",
+        "블록체인",
+        "스마트팩토리(스마트공장)",
+        "지주사"
+      ]
+    },
+    {
+      "ticker": "SK바이오팜",
+      "weight": 0.0667,
+      "sector": "바이오",
+      "mcap_tn": 6.6879,
+      "themes": [
+        "제약업체"
+      ]
+    },
+    {
+      "ticker": "HLB",
+      "weight": 0.0667,
+      "sector": "기타",
+      "mcap_tn": 4.9682,
+      "themes": [
+        "면역항암제"
+      ]
+    },
+    {
+      "ticker": "원익IPS",
+      "weight": 0.0667,
+      "sector": "반도체",
+      "mcap_tn": 4.3341,
+      "themes": [
+        "3D 낸드(NAND)",
+        "OLED(유기 발광 다이오드)",
+        "반도체 장비",
+        "태양광에너지"
+      ]
+    },
+    {
+      "ticker": "이오테크닉스",
+      "weight": 0.0667,
+      "sector": "반도체",
+      "mcap_tn": 3.9976,
+      "themes": [
+        "HBM(고대역폭메모리)",
+        "LED장비",
+        "반도체 장비"
+      ]
+    },
+    {
+      "ticker": "넷마블",
+      "weight": 0.0667,
+      "sector": "기타",
+      "mcap_tn": 3.3511,
+      "themes": [
+        "게임",
+        "모바일게임(스마트폰)"
+      ]
+    },
+    {
+      "ticker": "현대무벡스",
+      "weight": 0.0667,
+      "sector": "로봇",
+      "mcap_tn": 2.595,
+      "themes": [
+        "SI(시스템통합)",
+        "로봇(산업용/협동로봇 등)",
+        "스마트팩토리(스마트공장)"
+      ]
+    },
+    {
+      "ticker": "유진테크",
+      "weight": 0.0667,
+      "sector": "반도체",
+      "mcap_tn": 2.5482,
+      "themes": [
+        "3D 낸드(NAND)",
+        "반도체 장비"
+      ]
+    },
+    {
+      "ticker": "원익홀딩스",
+      "weight": 0.0667,
+      "sector": "로봇",
+      "mcap_tn": 1.4713,
+      "themes": [
+        "로봇(산업용/협동로봇 등)",
+        "반도체 장비",
+        "지주사"
+      ]
+    },
+    {
+      "ticker": "SFA",
+      "weight": 0.0667,
+      "sector": "2차전지",
+      "mcap_tn": 0.7774,
+      "themes": [
+        "2차전지",
+        "2차전지(장비)",
+        "OLED(유기 발광 다이오드)",
+        "반도체 장비",
+        "밸류업(25년 기업가치 제고계획 발표)"
+      ]
+    }
+  ],
+  "buyable_ranking": [
+    {
+      "ticker": "가온전선",
+      "score": 0.9525,
+      "sector": "기타",
+      "size_rank": 0.945,
+      "fiedler_rank": 0.867,
+      "ml_rank": 0.975,
+      "top_themes": [
+        "전선",
+        "전력설비"
+      ]
+    },
+    {
+      "ticker": "RFHIC",
+      "score": 0.9492,
+      "sector": "기타",
+      "size_rank": 0.871,
+      "fiedler_rank": 0.921,
+      "ml_rank": 0.969,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "케이엠더블유",
+      "score": 0.9486,
+      "sector": "기타",
+      "size_rank": 0.825,
+      "fiedler_rank": 0.88,
+      "ml_rank": 0.986,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비",
+        "LED"
+      ]
+    },
+    {
+      "ticker": "삼일제약",
+      "score": 0.9318,
+      "sector": "바이오",
+      "size_rank": 0.56,
+      "fiedler_rank": 0.94,
+      "ml_rank": 0.992,
+      "top_themes": [
+        "황사/미세먼지",
+        "제약업체"
+      ]
+    },
+    {
+      "ticker": "한섬",
+      "score": 0.9286,
+      "sector": "기타",
+      "size_rank": 0.732,
+      "fiedler_rank": 0.883,
+      "ml_rank": 0.973,
+      "top_themes": [
+        "밸류업(24년 기업가치 제고계획 발표)",
+        "패션/의류"
+      ]
+    },
+    {
+      "ticker": "신흥",
+      "score": 0.9281,
+      "sector": "기타",
+      "size_rank": 0.529,
+      "fiedler_rank": 0.942,
+      "ml_rank": 0.991,
+      "top_themes": [
+        "의료기기",
+        "고령화 사회(노인복지)",
+        "치아 치료(임플란트 등)"
+      ]
+    },
+    {
+      "ticker": "일성아이에스",
+      "score": 0.9244,
+      "sector": "바이오",
+      "size_rank": 0.683,
+      "fiedler_rank": 0.887,
+      "ml_rank": 0.974,
+      "top_themes": [
+        "백신/진단시약/방역(신종플루, AI 등)",
+        "제약업체"
+      ]
+    },
+    {
+      "ticker": "케이티알파",
+      "score": 0.9208,
+      "sector": "기타",
+      "size_rank": 0.659,
+      "fiedler_rank": 0.857,
+      "ml_rank": 0.98,
+      "top_themes": [
+        "모바일콘텐츠(스마트폰/태블릿PC)"
+      ]
+    },
+    {
+      "ticker": "PS일렉트로닉스",
+      "score": 0.9176,
+      "sector": "기타",
+      "size_rank": 0.742,
+      "fiedler_rank": 0.897,
+      "ml_rank": 0.952,
+      "top_themes": [
+        "갤럭시 부품주",
+        "5G(5세대 이동통신)",
+        "휴대폰부품"
+      ]
+    },
+    {
+      "ticker": "한솔테크닉스",
+      "score": 0.9163,
+      "sector": "기타",
+      "size_rank": 0.743,
+      "fiedler_rank": 0.728,
+      "ml_rank": 0.992,
+      "top_themes": [
+        "페라이트",
+        "갤럭시 부품주",
+        "무선충전기술"
+      ]
+    },
+    {
+      "ticker": "대한광통신",
+      "score": 0.9122,
+      "sector": "방위산업",
+      "size_rank": 0.894,
+      "fiedler_rank": 0.713,
+      "ml_rank": 0.965,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "방위산업/전쟁 및 테러"
+      ]
+    },
+    {
+      "ticker": "계룡건설",
+      "score": 0.9088,
+      "sector": "건설",
+      "size_rank": 0.6,
+      "fiedler_rank": 0.766,
+      "ml_rank": 0.996,
+      "top_themes": [
+        "건설 중소형"
+      ]
+    },
+    {
+      "ticker": "엘앤케이바이오",
+      "score": 0.904,
+      "sector": "기타",
+      "size_rank": 0.387,
+      "fiedler_rank": 0.971,
+      "ml_rank": 0.973,
+      "top_themes": [
+        "의료기기"
+      ]
+    },
+    {
+      "ticker": "레이언스",
+      "score": 0.9039,
+      "sector": "기타",
+      "size_rank": 0.471,
+      "fiedler_rank": 0.971,
+      "ml_rank": 0.959,
+      "top_themes": [
+        "의료기기"
+      ]
+    },
+    {
+      "ticker": "SV인베스트먼트",
+      "score": 0.8986,
+      "sector": "기타",
+      "size_rank": 0.497,
+      "fiedler_rank": 0.978,
+      "ml_rank": 0.946,
+      "top_themes": [
+        "코로나19(진단/치료제/백신 개발 등)",
+        "창투사"
+      ]
+    },
+    {
+      "ticker": "드림텍",
+      "score": 0.8972,
+      "sector": "바이오",
+      "size_rank": 0.707,
+      "fiedler_rank": 0.637,
+      "ml_rank": 0.994,
+      "top_themes": [
+        "바이오인식(생체인식)",
+        "코로나19(진단/치료제/백신 개발 등)",
+        "코로나19(진단키트)"
+      ]
+    },
+    {
+      "ticker": "안랩",
+      "score": 0.8946,
+      "sector": "기타",
+      "size_rank": 0.819,
+      "fiedler_rank": 0.61,
+      "ml_rank": 0.978,
+      "top_themes": [
+        "클라우드 컴퓨팅",
+        "보안주(정보)"
+      ]
+    },
+    {
+      "ticker": "로보티즈",
+      "score": 0.8938,
+      "sector": "로봇",
+      "size_rank": 0.932,
+      "fiedler_rank": 0.933,
+      "ml_rank": 0.878,
+      "top_themes": [
+        "로봇(산업용/협동로봇 등)",
+        "지능형로봇/인공지능(AI)"
+      ]
+    },
+    {
+      "ticker": "제이앤티씨",
+      "score": 0.8923,
+      "sector": "기타",
+      "size_rank": 0.843,
+      "fiedler_rank": 0.842,
+      "ml_rank": 0.913,
+      "top_themes": [
+        "갤럭시 부품주",
+        "휴대폰부품",
+        "스마트폰"
+      ]
+    },
+    {
+      "ticker": "RF머트리얼즈",
+      "score": 0.889,
+      "sector": "방위산업",
+      "size_rank": 0.714,
+      "fiedler_rank": 0.673,
+      "ml_rank": 0.972,
+      "top_themes": [
+        "방위산업/전쟁 및 테러",
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "영풍",
+      "score": 0.8887,
+      "sector": "기타",
+      "size_rank": 0.825,
+      "fiedler_rank": 0.786,
+      "ml_rank": 0.925,
+      "top_themes": [
+        "아이폰",
+        "비철금속"
+      ]
+    },
+    {
+      "ticker": "드림시큐리티",
+      "score": 0.8869,
+      "sector": "바이오",
+      "size_rank": 0.631,
+      "fiedler_rank": 0.707,
+      "ml_rank": 0.975,
+      "top_themes": [
+        "바이오인식(생체인식)",
+        "카카오뱅크(kakao BANK)",
+        "스테이블코인"
+      ]
+    },
+    {
+      "ticker": "한컴위드",
+      "score": 0.8832,
+      "sector": "기타",
+      "size_rank": 0.488,
+      "fiedler_rank": 0.861,
+      "ml_rank": 0.954,
+      "top_themes": [
+        "스테이블코인",
+        "인터넷은행",
+        "모바일콘텐츠(스마트폰/태블릿PC)"
+      ]
+    },
+    {
+      "ticker": "케이엔더블유",
+      "score": 0.8827,
+      "sector": "자동차",
+      "size_rank": 0.467,
+      "fiedler_rank": 0.743,
+      "ml_rank": 0.987,
+      "top_themes": [
+        "자동차부품"
+      ]
+    },
+    {
+      "ticker": "오이솔루션",
+      "score": 0.8827,
+      "sector": "기타",
+      "size_rank": 0.724,
+      "fiedler_rank": 0.921,
+      "ml_rank": 0.9,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "제테마",
+      "score": 0.8805,
+      "sector": "기타",
+      "size_rank": 0.579,
+      "fiedler_rank": 0.729,
+      "ml_rank": 0.969,
+      "top_themes": [
+        "미용기기",
+        "보톡스(보툴리눔톡신)",
+        "의료기기"
+      ]
+    },
+    {
+      "ticker": "쏠리드",
+      "score": 0.8802,
+      "sector": "기타",
+      "size_rank": 0.807,
+      "fiedler_rank": 0.906,
+      "ml_rank": 0.886,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비",
+        "양자암호/양자컴퓨팅"
+      ]
+    },
+    {
+      "ticker": "TJ미디어",
+      "score": 0.8801,
+      "sector": "기타",
+      "size_rank": 0.324,
+      "fiedler_rank": 0.778,
+      "ml_rank": 0.998,
+      "top_themes": [
+        "모바일콘텐츠(스마트폰/태블릿PC)",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "ticker": "휴스틸",
+      "score": 0.8793,
+      "sector": "기타",
+      "size_rank": 0.637,
+      "fiedler_rank": 0.709,
+      "ml_rank": 0.962,
+      "top_themes": [
+        "남-북-러 가스관사업",
+        "철강 중소형",
+        "강관업체(Steel pipe)"
+      ]
+    },
+    {
+      "ticker": "두올",
+      "score": 0.8789,
+      "sector": "자동차",
+      "size_rank": 0.441,
+      "fiedler_rank": 0.743,
+      "ml_rank": 0.986,
+      "top_themes": [
+        "자동차부품"
+      ]
+    },
+    {
+      "ticker": "성호전자",
+      "score": 0.8782,
+      "sector": "자동차",
+      "size_rank": 0.869,
+      "fiedler_rank": 0.457,
+      "ml_rank": 0.985,
+      "top_themes": [
+        "전기차",
+        "공기청정기",
+        "LED"
+      ]
+    },
+    {
+      "ticker": "현대제철",
+      "score": 0.8764,
+      "sector": "기타",
+      "size_rank": 0.937,
+      "fiedler_rank": 0.578,
+      "ml_rank": 0.941,
+      "top_themes": [
+        "수소차(연료전지/부품/충전소 등)",
+        "철강 주요종목",
+        "환율하락 수혜"
+      ]
+    },
+    {
+      "ticker": "소프트캠프",
+      "score": 0.876,
+      "sector": "기타",
+      "size_rank": 0.076,
+      "fiedler_rank": 0.914,
+      "ml_rank": 1.0,
+      "top_themes": [
+        "재택근무/스마트워크",
+        "보안주(정보)"
+      ]
+    },
+    {
+      "ticker": "오파스넷",
+      "score": 0.8755,
+      "sector": "기타",
+      "size_rank": 0.38,
+      "fiedler_rank": 0.719,
+      "ml_rank": 0.997,
+      "top_themes": [
+        "재택근무/스마트워크",
+        "NI(네트워크통합)",
+        "5G(5세대 이동통신)"
+      ]
+    },
+    {
+      "ticker": "피에스케이홀딩스",
+      "score": 0.8755,
+      "sector": "반도체",
+      "size_rank": 0.9,
+      "fiedler_rank": 0.593,
+      "ml_rank": 0.942,
+      "top_themes": [
+        "반도체 장비",
+        "HBM(고대역폭메모리)",
+        "밸류업(25년 기업가치 제고계획 발표)"
+      ]
+    },
+    {
+      "ticker": "알엔투테크놀로지",
+      "score": 0.8745,
+      "sector": "기타",
+      "size_rank": 0.087,
+      "fiedler_rank": 0.945,
+      "ml_rank": 0.988,
+      "top_themes": [
+        "페라이트",
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "와이어블",
+      "score": 0.8745,
+      "sector": "기타",
+      "size_rank": 0.304,
+      "fiedler_rank": 0.882,
+      "ml_rank": 0.967,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비",
+        "철도"
+      ]
+    },
+    {
+      "ticker": "빛샘전자",
+      "score": 0.8736,
+      "sector": "기타",
+      "size_rank": 0.323,
+      "fiedler_rank": 0.821,
+      "ml_rank": 0.979,
+      "top_themes": [
+        "통신장비",
+        "철도",
+        "LED"
+      ]
+    },
+    {
+      "ticker": "코위버",
+      "score": 0.8734,
+      "sector": "기타",
+      "size_rank": 0.281,
+      "fiedler_rank": 0.906,
+      "ml_rank": 0.964,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비",
+        "양자암호/양자컴퓨팅"
+      ]
+    },
+    {
+      "ticker": "극동유화",
+      "score": 0.8732,
+      "sector": "기타",
+      "size_rank": 0.486,
+      "fiedler_rank": 0.84,
+      "ml_rank": 0.946,
+      "top_themes": [
+        "윤활유",
+        "LPG(액화석유가스)",
+        "아스콘(아스팔트 콘크리트)"
+      ]
+    },
+    {
+      "ticker": "에이스테크",
+      "score": 0.8706,
+      "sector": "방위산업",
+      "size_rank": 0.565,
+      "fiedler_rank": 0.814,
+      "ml_rank": 0.936,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "방위산업/전쟁 및 테러",
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "에스엠벡셀",
+      "score": 0.8702,
+      "sector": "자동차",
+      "size_rank": 0.591,
+      "fiedler_rank": 0.743,
+      "ml_rank": 0.949,
+      "top_themes": [
+        "자동차부품"
+      ]
+    },
+    {
+      "ticker": "에프알텍",
+      "score": 0.8688,
+      "sector": "기타",
+      "size_rank": 0.097,
+      "fiedler_rank": 0.88,
+      "ml_rank": 0.995,
+      "top_themes": [
+        "5G(5세대 이동통신)",
+        "통신장비",
+        "LED"
+      ]
+    },
+    {
+      "ticker": "썸에이지",
+      "score": 0.8672,
+      "sector": "기타",
+      "size_rank": 0.013,
+      "fiedler_rank": 0.948,
+      "ml_rank": 0.989,
+      "top_themes": [
+        "모바일게임(스마트폰)"
+      ]
+    },
+    {
+      "ticker": "세원정공",
+      "score": 0.8657,
+      "sector": "자동차",
+      "size_rank": 0.464,
+      "fiedler_rank": 0.743,
+      "ml_rank": 0.963,
+      "top_themes": [
+        "자동차부품"
+      ]
+    },
+    {
+      "ticker": "코리안리",
+      "score": 0.8654,
+      "sector": "기타",
+      "size_rank": 0.917,
+      "fiedler_rank": 0.955,
+      "ml_rank": 0.835,
+      "top_themes": [
+        "손해보험"
+      ]
+    },
+    {
+      "ticker": "신풍",
+      "score": 0.8652,
+      "sector": "기타",
+      "size_rank": 0.149,
+      "fiedler_rank": 0.894,
+      "ml_rank": 0.978,
+      "top_themes": [
+        "제지"
+      ]
+    },
+    {
+      "ticker": "머큐리",
+      "score": 0.8638,
+      "sector": "기타",
+      "size_rank": 0.298,
+      "fiedler_rank": 0.909,
+      "ml_rank": 0.947,
+      "top_themes": [
+        "통신장비"
+      ]
+    },
+    {
+      "ticker": "팜스토리",
+      "score": 0.8629,
+      "sector": "기타",
+      "size_rank": 0.503,
+      "fiedler_rank": 0.848,
+      "ml_rank": 0.927,
+      "top_themes": [
+        "스포츠행사 수혜(올림픽, 월드컵 등)",
+        "여름",
+        "아프리카 돼지열병(ASF)"
+      ]
+    },
+    {
+      "ticker": "이글루",
+      "score": 0.8625,
+      "sector": "기타",
+      "size_rank": 0.304,
+      "fiedler_rank": 0.82,
+      "ml_rank": 0.966,
+      "top_themes": [
+        "인터넷은행",
+        "핀테크(FinTech)",
+        "보안주(정보)"
+      ]
+    }
+  ]
+}
