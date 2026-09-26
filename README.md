@@ -6,6 +6,7 @@ Each entry in `ledger.jsonl` records one session. Entries are hash-chained: `ent
 
 - `aegis`: the basket, regime, `w_final`, the signals tail, the theme map AEGIS used and its source's age, code hashes, and `revisions` (earlier logged `w_final` values that the recomputed history has since changed).
 - `membership_B`: the full Naver theme → ticker membership, taken independently of AEGIS from the stock.naver.com API.
+- `shadow_v38`: the v3.8-candidate shadow run (`outputs/KRX_v38_shadow`). Since 2026-09-26, v3.7 is sealed as `LEGACY_INVALIDATED_BY_POST_FREEZE_EVIDENCE`, and the corrections run in parallel only.
 - `roster_G1`: the KIND KOSPI/KOSDAQ listed roster and delistings over the last 30 days.
 - `status`: one of `FRESH`, `LAGGED`, `STALE`, `MISSING`. `flags`: any of `CODE_CHANGED`, `THEME_SOURCE_STALE`, `HISTORY_REVISED`.
 

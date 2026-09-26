@@ -6,7 +6,8 @@ Per KRX trading day it appends one hash-chained entry to ledger.jsonl with:
   A. the AEGIS state produced by the production run (basket, regime, w_final, signals, the theme map it used,
      its theme source and age, code hashes, and revisions of previously logged w_final values);
   B. an independent full Naver theme -> ticker membership snapshot (stock.naver.com API);
-  G1. the KIND KOSPI/KOSDAQ listed-company roster and recent delistings.
+  G1. the KIND KOSPI/KOSDAQ listed-company roster and recent delistings;
+  S. the v3.8-candidate shadow run (outputs/KRX_v38_shadow), logged next to production.
 Files go to blobs/<sha256> (content-addressed, written once, read-only). Nothing here writes to AEGIS.
 
     uv run --no-project --with pandas==3.0.6 --with pyarrow python record.py --slot evening|morning [--no-git]
@@ -260,6 +261,36 @@ def status_of(st: dict, day: str, sessions: list[str], prev_entries: list[dict])
     return ("FRESH" if lag == 0 else "LAGGED"), flags, lag
 
 
+# ── S. v3.8-candidate shadow (decision 2026-09-26: corrections approved, not promoted) ──
+
+
+def shadow_state() -> dict:
+    import pandas as pd
+
+    d = OUT.parent / "KRX_v38_shadow"
+    st: dict = {"version": "v3.8-candidate", "status": "SHADOW_NOT_VALIDATED", "missing": []}
+    try:
+        hb = (d / "aegis_holdings_v38_candidate.json").read_bytes()
+        h = json.loads(hb)
+        st["holdings_blob"] = put_blob(hb)
+        st.update({"computed_at": h.get("computed_at"), "basket_date": h.get("date"), "regime": h.get("regime"),
+                   "equity_exposure_pct": h.get("equity_exposure_pct"),
+                   "basket": [{"ticker": x.get("ticker"), "weight": x.get("weight")} for x in h.get("holdings", [])]})
+    except Exception as e:
+        st["missing"].append(f"holdings: {type(e).__name__}")
+    try:
+        ex = pd.read_parquet(d / "backtest_v38_exposure.parquet")
+        ex.index = pd.to_datetime(ex.index).strftime("%Y-%m-%d")
+        st["w_final"] = {"date": ex.index[-1], "w_final": float(ex["w_final"].iloc[-1])}
+    except Exception as e:
+        st["missing"].append(f"exposure: {type(e).__name__}")
+    try:
+        st["code_sha256"] = sha_bytes((AEGIS / "wwai_regime_engine/backtest_v38_candidate.py").read_bytes())
+    except Exception as e:
+        st["missing"].append(f"code: {type(e).__name__}")
+    return st
+
+
 # ── B. Naver theme membership ──────────────────────────────────────────────
 
 
@@ -388,6 +419,7 @@ def main() -> int:
                    "supersedes": same[-1]["entry_sha256"] if same else None}
     entry["aegis"] = aegis_state(prev, sessions)
     entry["status"], entry["flags"], entry["price_lag_sessions"] = status_of(entry["aegis"], day, sessions, prev)
+    entry["shadow_v38"] = shadow_state()
     if a.slot == "morning" and same and entry["aegis"].get("computed_at") == same[-1]["aegis"].get("computed_at") \
             and same[-1].get("membership_B", {}).get("ok") and same[-1].get("roster_G1", {}).get("ok"):
         print(f"{now:%F %T} morning: AEGIS output unchanged since the evening entry; nothing new")
